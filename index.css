@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    margin: auto;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.section-div {
+    background-color: brown;
+    margin: 4px;
+    padding: 4px;
+    border: 3px solid blue;
+}
+
+.btn {
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid red;
+    width: 9em;
+    height: 5em;
+}
