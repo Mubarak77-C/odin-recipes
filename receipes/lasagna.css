@@ -1,0 +1,127 @@
+*{
+    margin:8px;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-weight: 400; */
+    font-family: sans-serif;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.header{
+    background-color: rgb(178, 224, 12);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 3px;
+    padding:2px;
+    border: 3px solid green;
+    /* display: flex; */
+}
+.section{
+    background-color: blue;
+    border: 2px solid green;
+    margin: 2px;
+    padding:4px;
+    /* width: auto; */
+}
+
+.section article{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+}
+
+.components{
+    background-color: brown;
+}
+.product-title{
+    font-weight: bold;
+    margin:2px;
+    padding:2px;
+   border: 2px solid rgb(20, 201, 220);
+   background-color: blueviolet;
+
+}
+
+.card-image-box{
+    background-color: violet;
+    width: 100%;          /* Ensures the container has space */
+  height: 220px;        /* Or whatever your box height is */
+  overflow: hidden;     /* Force clips any rogue edges instantly */
+  border-radius: 8px;   /* Optional: keeps corners clean */
+ 
+}
+
+.card-images{
+    width: 20%;          /* Changed from 20% to 100% to fill width */
+  height: 78%;         /* Fills full container height */
+  object-fit: cover;    /* Cuts off extra image parts without squeezing it */
+ /* display: block;       Removes extra invisible baseline space below images */
+}
+
+.product-decription{
+    background-color: goldenrod;
+    
+    margin: 2px;
+    padding:2px;
+    border-radius: 2px solid grey;
+    font-weight: bold;
+}
+/* ingredient */
+.product-ingredient{
+    background-color: grey;
+    margin: 2px;
+    padding:2px;
+    border: 2px solid black;
+}
+.product-ingredient .ingredient-list{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+}
+
+.product-price{
+    background-color: red;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px;
+    padding: 7px;
+    border: 2px solid rgb(0, 255, 115);
+}
+
+/* ==========================================
+   FOOTER SECTION STYLES
+   ========================================== */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #adb5bd;
+  margin-top: 60px;
+  padding: 30px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-copy {
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link {
+  color: #adb5bd;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}

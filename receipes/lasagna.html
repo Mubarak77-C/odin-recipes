@@ -5,45 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fav food</title>
+    <link rel="stylesheet" href="lasagna.css">
 </head>
 
 <body>
-    <h1>My Fav Food</h1>
-    <p>this is fav food demo</p>
-    <ol>
+    <!-- header -->
+    <header class="header">
+        <h1>My Fav Food</h1>
+        <p>this is fav food demo</p>
+    </header>
 
-        <li>Pizza</li>
-        <img src="../images/pizza.png" alt="pizza" height="100" width="100">
-        <p><b>Pizza </b>is famous orignated from <i>italy</i></p>
-        <section>
-            <ul>
-                <li>take readymade pizza </li>
-                <li>add vegies</li>
-                <li>put on oven</li>
-            </ul>
-            <h3>Price:2$</h3>
-
-        </section>
-
-        <li>Burger</li>
-        <img src="../images/burger.png" alt="burger" height="100" width="100">
-        <p><b>Bruger </b>is famous all over world</i></p>
-        <section>
-            <ul>
-                <li>take readymade burger </li>
-                <li>add vegies</li>
-                <li>put on oven</li>
-            </ul>
-            <h3>Price:5$</h3>
-
-        </section>
+    <!-- component images url product detail -->
+    <section class="section">
+        <article class="article">
+            <div class="components">
 
 
+                <div class="product-title">
+                    <li>Pizza</li>
+                </div>
+                <div class="card-image-box"> <img src="../images/pizza.png" alt="pizza" class="card-images"></div>
+
+                <div class="product-decription">
+                    <p>DESCRIPTION: <b>Pizza </b>is famous orignated from <i>italy</i></p>
+                </div>
+
+                <div class="product-ingredient">
+                    <p>Product ingredient</p>
+                    <div class="ingredient-list">
+                        <ol>
+                            <ul>
+                                <li>take readymade pizza </li>
+                                <li>add vegies</li>
+                                <li>put on oven</li>
+                            </ul>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="product-price">
+                    <h3>Price:2$</h3>
+                </div>
 
 
 
-    </ol>
-    <a href="../index.html">Home</a>
+            </div>
+        </article>
+
+
+
+        <article class="article">
+            <div class="components">
+
+                <div class="product-title">
+                    <li>Burger</li>
+                </div>
+
+                <div class="card-image-box"> <img src="../images/burger.png" alt="burger" class="card-images"></div>
+
+                <div class="product-decription">
+                    <p><b>Bruger </b>is famous all over world</i></p>
+                </div>
+                <div class="product-ingredient">
+                    <p>Product ingredient</p>
+                
+
+                <div class="ingredient-list">
+                    <ol>
+                        <ul>
+                            <li>take readymade burger </li>
+                            <li>add vegies</li>
+                            <li>put on oven</li>
+                        </ul>
+                    </ol>
+                </div>
+                </div>
+                <div class="product-price">
+                    <h3>Price:5$</h3>
+                </div>
+
+
+            </div>
+        </article>
+    </section>
+
+
+    <!-- footer contents -->
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-copy">&copy; 2026 MyRestaurant Company. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="../index.html" class="footer-link">Home</a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
