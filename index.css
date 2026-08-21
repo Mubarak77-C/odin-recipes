@@ -4,6 +4,7 @@ body {
     display: inline-block;
     font-family: sans-serif;
     font-weight: 400;
+    font-size: 18px;
 }
 
 .section-div {
@@ -19,4 +20,18 @@ body {
     border: 2px solid red;
     width: 9em;
     height: 5em;
+    cursor: pointer;
+    /* Smoothly animates any changes over 0.3 seconds */
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: black;
+    /* FIXED: Added horizontal, vertical, blur, and color values */
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 1);
+    opacity: 0.8;
+    /* transform: scale(1.05); */
+
+    transform: translateY(-2px);
 }
